@@ -35,7 +35,7 @@
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
     self.searchB.delegate = self;
-//    self.searchB.
+    self.searchB.searchTextField.textColor = [UIColor whiteColor];
     // Do any additional setup after loading the view.
     
     [self fetchMovies];

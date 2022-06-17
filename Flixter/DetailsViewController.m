@@ -8,6 +8,7 @@
 #import "DetailsViewController.h"
 #import "UIImageView+AFNetworking.h"
 #import "TrailerViewController.h"
+#import "PosterViewController.h"
 
 @interface DetailsViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;

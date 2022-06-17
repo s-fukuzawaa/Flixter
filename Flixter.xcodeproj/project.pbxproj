@@ -24,6 +24,7 @@
 		AFBB14DC285B943E00AAE194 /* GridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBB14DB285B943E00AAE194 /* GridViewController.m */; };
 		AFBB14DF285B98AD00AAE194 /* GridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBB14DE285B98AD00AAE194 /* GridViewCell.m */; };
 		AFBB14EA285BCC5B00AAE194 /* TrailerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBB14E9285BCC5B00AAE194 /* TrailerViewController.m */; };
+		AFBB14ED285D36F700AAE194 /* PosterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBB14EC285D36F700AAE194 /* PosterViewController.m */; };
 		D76E215CE1DA421F73DB1E7F /* Pods_Flixter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE9975D39FDF8BCF83A570B3 /* Pods_Flixter.framework */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +80,8 @@
 		AFBB14DE285B98AD00AAE194 /* GridViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GridViewCell.m; sourceTree = "<group>"; };
 		AFBB14E8285BCC5B00AAE194 /* TrailerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrailerViewController.h; sourceTree = "<group>"; };
 		AFBB14E9285BCC5B00AAE194 /* TrailerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrailerViewController.m; sourceTree = "<group>"; };
+		AFBB14EB285D36F700AAE194 /* PosterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PosterViewController.h; sourceTree = "<group>"; };
+		AFBB14EC285D36F700AAE194 /* PosterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PosterViewController.m; sourceTree = "<group>"; };
 		BE9975D39FDF8BCF83A570B3 /* Pods_Flixter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flixter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1AF3A28E388120FC74CFE27 /* Pods-Flixter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flixter.debug.xcconfig"; path = "Target Support Files/Pods-Flixter/Pods-Flixter.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -164,6 +167,8 @@
 				AFBB1496285A4A3D00AAE194 /* SceneDelegate.h */,
 				AFBB1497285A4A3D00AAE194 /* SceneDelegate.m */,
 				AFBB149C285A4A3D00AAE194 /* Main.storyboard */,
+				AFBB14EB285D36F700AAE194 /* PosterViewController.h */,
+				AFBB14EC285D36F700AAE194 /* PosterViewController.m */,
 				AFBB14E8285BCC5B00AAE194 /* TrailerViewController.h */,
 				AFBB14E9285BCC5B00AAE194 /* TrailerViewController.m */,
 				AFBB14DD285B98AD00AAE194 /* GridViewCell.h */,
@@ -448,6 +453,7 @@
 				AFBB1498285A4A3D00AAE194 /* SceneDelegate.m in Sources */,
 				AFBB14EA285BCC5B00AAE194 /* TrailerViewController.m in Sources */,
 				AFBB14CA285A528800AAE194 /* MovieViewController.m in Sources */,
+				AFBB14ED285D36F700AAE194 /* PosterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
