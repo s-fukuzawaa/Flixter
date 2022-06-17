@@ -20,38 +20,34 @@ The following **optional** features are implemented:
 
 - [ ] User can tap a poster in the collection view to see a detail screen of that movie
 - [ ] User can search for a movie.
-- [ ] All images fade in as they are loading.
-- [ ] User can view the large movie poster by tapping on a cell.
-- [ ] For the large poster, load the low resolution image first and then switch to the high resolution image when complete.
-- [ ] Customize the selection effect of the cell.
-- [ ] Customize the navigation bar.
-- [ ] Customize the UI.
-- [ ] Run your app on a real device.
+- [ ] Customize the selection effect of the cell. (When clicked, dark gray background instead of white. Compatible with dark mode.)
+- [ ] Customize the navigation. (Added navigation titles, black background with white letters)
+- [ ] Customize the UI. (Made the entire app to be in dark mode. A.k.a black based background with white letters. Added button on top of large movie poster in detail view for user visibility of trailer feature.)
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [ ] Added a trailer feature. When user goes into detail view, the big background movie poster has a play button on it. When user clicks the button, it takes  to another segue that allows user to play the trailer. User can view this horizontally.
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1.
-2.
+1. The hierarchy between segues, NavigationController, and TabViewController. Do we need to keep making additional segues for every subpage? Can an app have multiple NavigationController?
+2. Does passing datas through seugue cost in app efficiency? What is the limit in size of the data a segue can transfer the data?
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![Kapture 2022-06-17 at 14 50 38](https://user-images.githubusercontent.com/31524675/174409113-9b694bc6-afac-4521-bde3-ee18e1b6beb7.gif)
 
 GIF created with [Kap](https://getkap.co/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Some of the instructions on CodePath specification was lacking in details. For example, when implementing the DetailsViewController, it never specified that we needed to create deatilDict on DetailsViewController.h to store the data passed in from MovieViewController. There's also lack of directions on how to implement the trailer feature or the Network error alert feature. Many things had to be researched on my own. However, I did enjoy that process so I believe those challenges made me grow.
 
 ## Credits
 
 List an 3rd party libraries, icons, graphics, or other assets you used in your app.
+https://developers.google.com/youtube/v3/guides/ios_youtube_helper
 
 - [AFNetworking](https://github.com/AFNetworking/AFNetworking) - networking task library
 
