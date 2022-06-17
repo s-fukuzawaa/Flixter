@@ -40,6 +40,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
+
 ![Kapture 2022-06-17 at 16 24 04](https://user-images.githubusercontent.com/31524675/174412378-bfb8932c-f00e-4202-9f03-1f9935687bfb.gif)
 
 
